@@ -334,7 +334,7 @@ header{
 
 .from{
     width: 1140px;
-    height: 640px;
+    height: 460px;
     
     margin: 100px 165px;
     display: flex;
@@ -399,4 +399,51 @@ header{
     transition: 2s;
     font-size: 1.25rem;
     transition-duration: 2s;
+}
+
+
+/* footer working here */
+
+
+
+.footer-section{
+
+    width: 1440px;
+    height: 430px;
+    background-color:rgba(228, 219, 202, 0.399); 
+    display: flex;
+
+}
+
+.fotter-logo{
+    text-align: center;
+    width: 530px;
+    height: 200px;
+    margin: 104px 420px;
+    
+}
+.fotter-logo h1{
+    font-size: 5rem ;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: bold;
+  font-style: normal;
+  
+  color: #4E47FF;
+  
+}
+.fotter-logo p{
+     color: rgba(0, 0, 0, 0.284); 
+    padding: 10px 0px;
+}
+.about-list ul li{
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    margin: 0px 40px 15px 15px;
+    
+    
+}
+.about-list{
+    margin-top: 43px;
 }
