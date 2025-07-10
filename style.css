@@ -138,6 +138,18 @@ header{
     margin-top: 55px;
 }
 
+.launch-discriptaion button:hover{
+    width: 215px;
+    height: 35px;
+    font-size: 1.15rem;
+    background-color: #231cdca9;
+    color: rgba(228, 210, 210, 0.945);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.734);
+    transition-duration: 2s;
+    transition: 2s;
+}
+
 
 
 
