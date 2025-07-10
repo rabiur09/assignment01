@@ -1,0 +1,217 @@
+*{
+    margin:auto;
+
+   scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+header{
+   max-width: 1440px;
+    height: 698px;
+    background-image: url(Assets/Hero-bg.png);
+}
+.nav-head .inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: bold;
+  font-style: normal;
+  margin: 50px;
+  width: 99px;
+  height: 51px;
+  color: #4E47FF;
+  font-size: 34px;
+
+}
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 151px;
+    margin: 5px 150px;
+  
+}
+.nav-head button{
+    width: 135px;
+    height: 35px;
+    margin: 50px;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    font-size: 1.11rem;
+    color: white;
+    
+}
+
+.nav-head button:hover{
+    cursor: pointer;
+    width: 138px;
+    height: 37px;
+    background-color: #9403FD;
+    color: antiquewhite;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.474);
+}
+
+.nav-discriptaion{
+    width:905px ;
+    height: 240px;
+    margin: 152px 267.5px;
+    
+    
+}
+.nav-discriptaion h1{
+    font-size: 55px;
+    text-align: center  ;
+    font-weight: bold;
+    padding: 5px 5px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.nav-discriptaion button{
+    width: 174px;
+    height: 45px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    margin: 50px 0px 365px 365px;
+    
+}
+.nav-discriptaion button:hover{
+     width: 178px;
+    height: 49px;
+    font-size: 1.1rem;
+    background-color: #9403FD;
+    color:wheat;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.474);
+}
+
+
+
+/* Section working here */
+
+.launch-section{
+    width: 1140px;
+    height: 330px;
+    display: flex;
+    
+    justify-content: space-around;
+    margin: 116px 165px;
+}
+.launch-discriptaion{
+    display: block;
+    width: 517px;
+    height: 203px;
+    
+    margin-left: 0px;
+    
+    
+}
+
+.launch-titile{
+    font-weight: bold;      
+    font-size: 35px;
+    text-align: left;
+    padding: 10px 0px;
+}
+.launch-sub-titile{
+    font-size: 24px;
+    text-align: justify;
+    color: rgba(37, 36, 50, 0.5);
+   
+}
+
+.launch-discriptaion button{
+    width: 210px;
+    height: 33px;
+    font-size: 1.1rem;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    margin-top: 55px;
+}
+
+
+
+
+.launch-section img{
+    width: 420px;
+    height: 325px;
+    margin-right: 0px;
+    border-radius: 30px;
+}
+
+
+
+
+/* Product user working start here */
+
+
+
+.product-section{
+    width: 1140px;
+    height: 330px;
+    background-color: rgba(78, 71, 255, 0.1);
+    display: block;
+    border-radius: 20px;
+    
+}
+
+.product-discription{
+    width: 856px;
+    height: 80px;
+    font-size: 2rem;
+    
+    display: block;
+ 
+    
+}
+
+.product-discription p{
+    margin-top: 50px;
+    
+    text-align: center;
+    padding: 35px;
+}
+
+.user-section{
+    width: 856px;
+    height: 130px;
+    display: flex;
+   
+    margin: 50px 142px;
+    
+}
+
+.userlist h1{
+    font-size: 4rem;
+    color: #4E47FF;
+}
+.userlist p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
