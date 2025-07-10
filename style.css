@@ -202,11 +202,75 @@ header{
 
 
 
+/*Feedback working start here  */
+
+
+.feedback-section{
+    width: 1140px;
+    height: 330px;
+    margin: 72px 175px;
+    
+}
 
 
 
+.feedback-intro p{
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(37, 36, 50, 1);
+}
+.feedback-discription{
+    display: flex;
+    margin-top: 50px;
+   
+    gap: 20px   ;
+    justify-content: space-around;
+}
+.feedback-card{
+    background-color: whitesmoke;
+    width: 366px;
+    height: 240px;
+    border: 1px solid #f2eded9c;
+    border-radius: 15px;
+    padding: 15px;
 
+}
 
+.feedback-card .comment{
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+.details{
+    padding: 5px 0px;
+}
+
+.feedback-user{
+    display: flex;
+    
+    margin-top: 40px;
+
+}
+
+.feedback-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    
+    margin-left: 0px;
+    
+}
+
+.userName{
+    margin-left: -150px;
+    row-gap: 0px;
+   
+}
+.userName h3{
+    color: rgba(9, 8, 8, 0.512);
+}
+.userName p{
+    color: rgba(0, 0, 0, 0.205);
+}
 
 
 
